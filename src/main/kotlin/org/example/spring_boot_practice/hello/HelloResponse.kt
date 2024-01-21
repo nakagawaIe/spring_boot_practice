@@ -9,3 +9,7 @@ data class HelloResponse (
 data class HelloList (
     @field:JsonProperty("body") var body: String
 )
+
+data class HelloPostRequest (
+    @field:JsonProperty("message") var message: String
+)
